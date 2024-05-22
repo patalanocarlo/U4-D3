@@ -12,14 +12,14 @@ public class Main {
             this.durata = durata;
         }
 
-//senza il metodo toString ho un problema di leggibilita infatti avro un output illegibile con solo (nome del package nome della classe principale , la classe static di riferimento quindi Chiamata.)
-
+//senza il metodo toString ho un problema di leggibilita infatti avrò un output illegibile con solo (nome del package nome della classe principale , la classe static di riferimento quindi Chiamata.)
+         @Override
         public String toString() {
             return "Numero chiamato: " + numeroChiamato + ", Durata: " + durata + " minuti";
         }
     }
 
-    // Classe interna SIM
+
     static class SIM {
         private String numeroTelefono;
         private double credito;
